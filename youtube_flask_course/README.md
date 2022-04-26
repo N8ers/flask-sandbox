@@ -12,3 +12,10 @@
 
 1. `pipenv shell` (activated)
 1. `deactivate` (deactivate)
+
+### Activate db
+
+1. After setting up your db in app.py, open a python shell in the terminal `python3`.
+1. In the shell run `from app import db`.
+1. Then `db.create_all()`.
+1. You will then see a db created in the project directory.
